@@ -1,0 +1,10 @@
+<a id="refresh" href="#">click</a>
+
+<script>
+    $(function() {
+      $("#refresh").click(function(evt) {
+         $("#randomdiv").load("index.php")
+         evt.preventDefault();
+      })
+    })
+</script>
